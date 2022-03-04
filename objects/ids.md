@@ -1,5 +1,5 @@
 
-|bits 1-4|bits 5-32|bits 33-40|bits 41-72|bits 73-96|
+|bits 1-8|bits 9-32|bits 33-48|bits 49-80|bits 81-96|
 |:---:|:---:|:---:|:---:|:---:|
-|0000|random id|object type|properties present|custom|
-|nibble|int28|byte|bit flags|any|
+|00000000|random id|object type|properties present|custom|
+|null|uint24|uint16|bit flags|any|
