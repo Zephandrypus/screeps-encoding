@@ -65,5 +65,6 @@ Game object id suffix:
 |bits 1-8|bits 9-32|
 |:---:|:---:|
 |21|last 3 bytes|
+|byte|uint24|
 
 For instances where the id is - instead of being used to reference the game object - solely used to check when a game object is part of a list. The last three bytes of game object ids are unique to each game object, as far as I'm aware. 
